@@ -32,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
                 val = val.concat("0");
                 res = res.append(val);
                 lastInput = val;
-            } else if (res.equals("0") && !val.equals(".")) {
+            } else if (res.toString().equals("0") && !val.equals(".")) {
                 res = new StringBuilder(val);
                 lastInput = val;
-            } else if (!val.equals(".")){
+            } else {
                 if (lastInput.equals(".")) {
                     res.setCharAt(res.length()-1, val.charAt(0));
                     lastInput = val;
