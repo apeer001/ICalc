@@ -11,7 +11,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3184ec3-b7f8-4f0e-85f3-b520119e7f32" name="Default" comment="" />
+    <list default="true" id="a3184ec3-b7f8-4f0e-85f3-b520119e7f32" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/apeer001/app/icalc/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/apeer001/app/icalc/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    </list>
     <ignored path="ICalc.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08288288">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state vertical-scroll-proportion="-4.614286">
+              <caret line="173" column="34" selection-start-line="173" selection-start-column="34" selection-end-line="173" selection-end-column="34" />
               <folding>
                 <element signature="e#272#307#0" expanded="true" />
                 <element signature="e#333#368#0" expanded="true" />
@@ -52,16 +56,22 @@
                 <element signature="e#2697#2714#0" expanded="true" />
                 <element signature="e#2982#2999#0" expanded="true" />
                 <element signature="e#3034#3051#0" expanded="true" />
-                <element signature="e#3318#3335#0" expanded="true" />
-                <element signature="e#3370#3387#0" expanded="true" />
-                <element signature="e#3654#3671#0" expanded="true" />
-                <element signature="e#3706#3723#0" expanded="true" />
-                <element signature="e#3992#4009#0" expanded="true" />
-                <element signature="e#4044#4061#0" expanded="true" />
-                <element signature="e#4329#4346#0" expanded="true" />
-                <element signature="e#4381#4398#0" expanded="true" />
-                <element signature="e#4669#4686#0" expanded="true" />
-                <element signature="e#4721#4738#0" expanded="true" />
+                <element signature="e#3359#3376#0" expanded="true" />
+                <element signature="e#3657#3674#0" expanded="true" />
+                <element signature="e#3709#3726#0" expanded="true" />
+                <element signature="e#3993#4010#0" expanded="true" />
+                <element signature="e#4045#4062#0" expanded="true" />
+                <element signature="e#4331#4348#0" expanded="true" />
+                <element signature="e#4383#4400#0" expanded="true" />
+                <element signature="e#4709#4726#0" expanded="true" />
+                <element signature="e#5046#5063#0" expanded="true" />
+                <element signature="e#5098#5115#0" expanded="true" />
+                <element signature="e#5386#5403#0" expanded="true" />
+                <element signature="e#5438#5455#0" expanded="true" />
+                <element signature="e#5763#5780#0" expanded="true" />
+                <element signature="e#6100#6117#0" expanded="true" />
+                <element signature="e#6152#6169#0" expanded="true" />
+                <element signature="e#6478#6495#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apeer001/app/icalc/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8528">
+              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1684,8 +1694,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/apeer001/app/icalc/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/apeer001/app/icalc/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2036,7 +2046,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2182" height="1402" extended-state="7" />
+    <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.49809706" order="6" side_tool="false" content_ui="tabs" />
@@ -2046,7 +2056,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44745764" sideWeight="0.5057307" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43659574" sideWeight="0.49426934" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40170214" sideWeight="0.49429116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279661" sideWeight="0.49809706" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34382978" sideWeight="0.4961941" order="11" side_tool="false" content_ui="tabs" />
@@ -2121,18 +2131,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apeer001/app/icalc/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08288288">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state vertical-scroll-proportion="-4.614286">
+          <caret line="173" column="34" selection-start-line="173" selection-start-column="34" selection-end-line="173" selection-end-column="34" />
           <folding>
             <element signature="e#272#307#0" expanded="true" />
             <element signature="e#333#368#0" expanded="true" />
@@ -2149,21 +2151,35 @@
             <element signature="e#2697#2714#0" expanded="true" />
             <element signature="e#2982#2999#0" expanded="true" />
             <element signature="e#3034#3051#0" expanded="true" />
-            <element signature="e#3318#3335#0" expanded="true" />
-            <element signature="e#3370#3387#0" expanded="true" />
-            <element signature="e#3654#3671#0" expanded="true" />
-            <element signature="e#3706#3723#0" expanded="true" />
-            <element signature="e#3992#4009#0" expanded="true" />
-            <element signature="e#4044#4061#0" expanded="true" />
-            <element signature="e#4329#4346#0" expanded="true" />
-            <element signature="e#4381#4398#0" expanded="true" />
-            <element signature="e#4669#4686#0" expanded="true" />
-            <element signature="e#4721#4738#0" expanded="true" />
+            <element signature="e#3359#3376#0" expanded="true" />
+            <element signature="e#3657#3674#0" expanded="true" />
+            <element signature="e#3709#3726#0" expanded="true" />
+            <element signature="e#3993#4010#0" expanded="true" />
+            <element signature="e#4045#4062#0" expanded="true" />
+            <element signature="e#4331#4348#0" expanded="true" />
+            <element signature="e#4383#4400#0" expanded="true" />
+            <element signature="e#4709#4726#0" expanded="true" />
+            <element signature="e#5046#5063#0" expanded="true" />
+            <element signature="e#5098#5115#0" expanded="true" />
+            <element signature="e#5386#5403#0" expanded="true" />
+            <element signature="e#5438#5455#0" expanded="true" />
+            <element signature="e#5763#5780#0" expanded="true" />
+            <element signature="e#6100#6117#0" expanded="true" />
+            <element signature="e#6152#6169#0" expanded="true" />
+            <element signature="e#6478#6495#0" expanded="true" />
           </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apeer001/app/icalc/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8528">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

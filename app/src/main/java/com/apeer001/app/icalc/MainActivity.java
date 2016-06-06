@@ -63,10 +63,11 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             }
+            if (firstButtonPress) {
+                firstButtonPress = false;
+            }
         }
-        if (firstButtonPress) {
-            firstButtonPress = false;
-        }
+
         // Update text in text field
         resText.setText(res.toString());
     }
