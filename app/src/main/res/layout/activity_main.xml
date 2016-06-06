@@ -15,13 +15,18 @@
     <EditText
         android:layout_weight="3.0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/box_size"
         android:inputType="numberSigned"
         android:ems="10"
         android:id="@+id/ResultText"
         android:layout_above="@+id/gridLayout"
         android:layout_marginBottom="10dp"
-        android:text="0" />
+        android:text="0"
+        android:gravity="right"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
 
     <GridLayout
         android:layout_weight="7.0"
@@ -35,7 +40,8 @@
             android:textSize="32sp"
             android:id="@+id/OneBtn"
             android:layout_row="0"
-            android:layout_column="0" />
+            android:layout_column="0"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -44,7 +50,8 @@
             android:textSize="32sp"
             android:id="@+id/TwoBtn"
             android:layout_row="0"
-            android:layout_column="1" />
+            android:layout_column="1"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -53,7 +60,8 @@
             android:textSize="32sp"
             android:id="@+id/ThreeBtn"
             android:layout_row="0"
-            android:layout_column="2" />
+            android:layout_column="2"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -62,7 +70,8 @@
             android:textSize="32sp"
             android:id="@+id/FourBtn"
             android:layout_row="1"
-            android:layout_column="0" />
+            android:layout_column="0"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -71,7 +80,8 @@
             android:textSize="32sp"
             android:id="@+id/FiveBtn"
             android:layout_row="1"
-            android:layout_column="1" />
+            android:layout_column="1"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -80,7 +90,8 @@
             android:textSize="32sp"
             android:id="@+id/SixBtn"
             android:layout_row="1"
-            android:layout_column="2" />
+            android:layout_column="2"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -89,7 +100,8 @@
             android:textSize="32sp"
             android:id="@+id/SevBtn"
             android:layout_row="2"
-            android:layout_column="0" />
+            android:layout_column="0"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -98,7 +110,8 @@
             android:textSize="32sp"
             android:id="@+id/EightBtn"
             android:layout_row="2"
-            android:layout_column="1" />
+            android:layout_column="1"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -107,16 +120,18 @@
             android:textSize="32sp"
             android:id="@+id/NineBtn"
             android:layout_row="2"
-            android:layout_column="2" />
+            android:layout_column="2"
+            android:onClick="onClick" />
 
         <Button
-            android:layout_width="@dimen/box_size"
-            android:layout_height="@dimen/box_size"
+            android:layout_width="@dimen/box_sizepnt_width"
+            android:layout_height="@dimen/box_sizepnt_height"
             android:text="."
             android:textSize="32sp"
             android:id="@+id/decimalBtn"
             android:layout_row="3"
-            android:layout_column="0" />
+            android:layout_column="0"
+            android:onClick="onClick" />
 
     </GridLayout>
 

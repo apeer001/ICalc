@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
     Double left = 0.0;
     Double right = 0.0;
     EditText resText;
+    private String lastInput = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,18 +26,26 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         Button b = (Button) view;
         String val = b.getText().toString();
-        String res = resText.getText().toString();
+        StringBuilder res = new StringBuilder(resText.getText().toString());
         if (!val.equals("+") && !val.equals("-") && !val.equals("/") && !val.equals("x")) {
-            if (val.equals(".") && !res.contains(".")) {
+            if (val.equals(".") && !res.toString().contains(".")) {
                 val = val.concat("0");
-                res = res.concat(val);
+                res = res.append(val);
+                lastInput = val;
             } else if (res.equals("0") && !val.equals(".")) {
-                res = val;
-            } else {
-                res = res.concat(val);
+                res = new StringBuilder(val);
+                lastInput = val;
+            } else if (!val.equals(".")){
+                if (lastInput.equals(".")) {
+                    res.setCharAt(res.length()-1, val.charAt(0));
+                    lastInput = val;
+                } else {
+                    res = res.append(val);
+                    lastInput = val;
+                }
             }
         }
         // Update text in text field
-        resText.setText(res);
+        resText.setText(res.toString());
     }
 }
