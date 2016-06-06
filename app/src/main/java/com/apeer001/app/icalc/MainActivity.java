@@ -2,6 +2,7 @@ package com.apeer001.app.icalc;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
     Double right = 0.0;
     EditText resText;
     private String lastInput = "";
+    boolean firstButtonPress = true;
+
+    private final String TAG = getClass().getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,12 +36,14 @@ public class MainActivity extends AppCompatActivity {
                 val = val.concat("0");
                 res = res.append(val);
                 lastInput = val;
-            } else if (res.toString().equals("0") && !val.equals(".")) {
+            } else if (res.toString().equals("0") && !val.equals(".") && firstButtonPress) {
                 res = new StringBuilder(val);
                 lastInput = val;
+                firstButtonPress = false;
             } else {
-                if (lastInput.equals(".")) {
-                    res.setCharAt(res.length()-1, val.charAt(0));
+                if (lastInput.equals(".") && res.toString().contains(".") && !val.equals(".")) {
+                    Log.d(TAG, "onClick: " + lastInput);
+                    res.setCharAt(res.toString().length()-1, val.charAt(0));
                     lastInput = val;
                 } else {
                     res = res.append(val);
