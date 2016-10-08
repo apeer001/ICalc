@@ -4,25 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-
     tools:context="com.apeer001.app.icalc.MainActivity"
     android:weightSum="10"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#000000">
 
     <EditText
-        android:layout_weight="1.0"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/box_size"
+        android:layout_height="wrap_content"
         android:inputType="numberSigned"
         android:ems="10"
         android:id="@+id/ResultText"
         android:layout_above="@+id/gridLayout"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="0dp"
         android:text="0"
-        android:textSize="48sp"
-        android:fontFamily="sans-serif"
+        android:textSize="90sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="serif-monospace"
         android:gravity="end"
         android:clickable="false"
         android:cursorVisible="false"
@@ -40,9 +39,10 @@
             android:text="1"
             android:textSize="32sp"
             android:id="@+id/OneBtn"
-            android:layout_row="0"
+            android:layout_row="2"
             android:layout_column="0"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9"/>
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -50,9 +50,10 @@
             android:text="2"
             android:textSize="32sp"
             android:id="@+id/TwoBtn"
-            android:layout_row="0"
+            android:layout_row="2"
             android:layout_column="1"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -60,9 +61,10 @@
             android:text="3"
             android:textSize="32sp"
             android:id="@+id/ThreeBtn"
-            android:layout_row="0"
+            android:layout_row="2"
             android:layout_column="2"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9"/>
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -72,7 +74,8 @@
             android:id="@+id/FourBtn"
             android:layout_row="1"
             android:layout_column="0"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9"/>
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -82,7 +85,8 @@
             android:id="@+id/FiveBtn"
             android:layout_row="1"
             android:layout_column="1"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -92,7 +96,8 @@
             android:id="@+id/SixBtn"
             android:layout_row="1"
             android:layout_column="2"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9"/>
 
         <Button
             android:layout_width="0dip"
@@ -100,9 +105,11 @@
             android:text="-"
             android:id="@+id/subBtn"
             android:textSize="32sp"
-            android:layout_row="1"
+            android:textColor="#FFFFFF"
+            android:layout_row="2"
             android:layout_column="3"
-            android:layout_gravity="fill_horizontal"/>
+            android:layout_gravity="fill_horizontal"
+            android:background="#ff8900"/>
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -110,9 +117,10 @@
             android:text="7"
             android:textSize="32sp"
             android:id="@+id/SevBtn"
-            android:layout_row="2"
+            android:layout_row="0"
             android:layout_column="0"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -120,9 +128,10 @@
             android:text="8"
             android:textSize="32sp"
             android:id="@+id/EightBtn"
-            android:layout_row="2"
+            android:layout_row="0"
             android:layout_column="1"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -130,9 +139,10 @@
             android:text="9"
             android:textSize="32sp"
             android:id="@+id/NineBtn"
-            android:layout_row="2"
+            android:layout_row="0"
             android:layout_column="2"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9" />
 
         <Button
             android:layout_width="0dip"
@@ -140,10 +150,12 @@
             android:text="x"
             android:id="@+id/multBtn"
             android:textSize="32sp"
-            android:layout_row="2"
+            android:textColor="#FFFFFF"
+            android:layout_row="1"
             android:layout_column="3"
             android:onClick="onClick"
-            android:layout_gravity="fill_horizontal"/>
+            android:layout_gravity="fill_horizontal"
+            android:background="#ff8900" />
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -153,7 +165,8 @@
             android:id="@+id/decimalBtn"
             android:layout_row="3"
             android:layout_column="0"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#D6D7D9"/>
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -163,7 +176,8 @@
             android:id="@+id/zeroBtn"
             android:layout_row="3"
             android:layout_column="1"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            android:background="#D6D7D9"/>
 
         <Button
             android:layout_width="0dip"
@@ -171,10 +185,12 @@
             android:text="+"
             android:id="@+id/plusBtn"
             android:textSize="32sp"
-            android:layout_row="0"
+            android:textColor="#FFFFFF"
+            android:layout_row="3"
             android:layout_column="3"
             android:onClick="onClick"
-            android:layout_gravity="fill_horizontal"/>
+            android:layout_gravity="fill_horizontal"
+            android:background="#ff8900"/>
 
         <Button
             android:layout_width="@dimen/box_size"
@@ -184,7 +200,8 @@
             android:textSize="32sp"
             android:layout_row="3"
             android:layout_column="2"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:background="#C3C4C6"/>
 
         <Button
             android:layout_width="0dip"
@@ -192,11 +209,12 @@
             android:text="/"
             android:id="@+id/divBtn"
             android:textSize="32sp"
-            android:layout_row="3"
+            android:textColor="#FFFFFF"
+            android:layout_row="0"
             android:layout_column="3"
             android:onClick="onClick"
-
-            android:layout_gravity="fill_horizontal"/>
+            android:layout_gravity="fill_horizontal"
+            android:background="#ff8900"/>
 
     </GridLayout>
 
